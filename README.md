@@ -28,9 +28,13 @@ Welcome to my daily MLOps course! this repository will track my day-to-day learn
   - Why is it important?
   - MLOps lifecycle
   - Tools overview
+- [ML Workflow Refresher + Train Your First Model](2-refresher.md)
+  - ML Workflow overview
+  - Hands-on Titanic Survival Prediction
+  - Folder structure update
+  - Download dataset
 
 ### Upcoming Days
-- Day 2 - Data Management and Versioning
 - Day 3 - Model Development and Experimentation
 - Day 4 - Model Deployment and Serving
 - Day 5 - CI/CD for Machine Learning
