@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pkl
+.env
+.dvc/
+.mlflow/
+data/
+logs/
+*.log
+.idea/
+.vscode/

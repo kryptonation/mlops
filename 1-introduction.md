@@ -69,4 +69,34 @@ For example, companies like Netflix, Spotify, and Uber use MLOps pipeline to:
 - Detect anamolies
 - Serve models globally with high uptime and scalability
 
+## Reusable MLOps Project Repo Template
+
+This template will evolve as we move through the course but here's the initialize to organize your MLOps learning:
+
+**Folder Structure**
+```
+mlops-course
++-- .github
+|   +-- workflows/          # For github actions
++-- dags/                   # For pipeline orchestration
++-- kubernetes/             # Kubernetes manifests
++-- mlflow/                 # MLFlow configurations and experiment tracking setup
++-- monitoring/             # Prometheus, Grafana dashboards, alerts
++-- src/
+|   +-- data/               # Data versioning with DVC
+|   +-- models/             # Model artifacts & Versioning
+|   +-- pipelines/          # Training, serving and retraining pipelines
+|   +-- api/                # FastAPI/Flask app for model serving
+|   +-- utils/              # Utility scripts
+|   +-- train.py            # Main training script
++-- tests/                  # Unit and integration tests
++-- Dockerfile              # Docker setup
++-- docker-compose.yml      # Compose for multi-container setup
++-- requirements.txt        # Python dependencies
++-- dvc.yaml                # DVC pipepline config
++-- mlflow.yaml             # MLFlow server config
+README.md
+.gitignore
+```
+
 

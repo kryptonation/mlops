@@ -2,6 +2,24 @@
 
 Welcome to my daily MLOps course! this repository will track my day-to-day learning from beginner to advanced MLOps concepts.
 
+## Features to Implement:
+- Data versioning (DVC)
+- Experiment tracking (MLflow)
+- Model deployment (FastAPI + Docker)
+- CI/CD automation (GitHub Actions)
+- Kubernetes (Minikube)
+- Monitoring (Prometheus, Grafana)
+- Continuous training pipelines
+
+## Folder Structure:
+- `/src`: Source code for training and serving models.
+- `/tests`: Tests for pipelines, APIs, and utilities.
+- `/kubernetes`: K8s manifests.
+- `/monitoring`: Monitoring setup.
+- `/mlflow`: MLflow tracking setup.
+
+---
+
 ## Course Content
 
 ### Day 1 - Introduction to MLOps
